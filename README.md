@@ -1,5 +1,5 @@
 [![GoDoc](http://godoc.org/github.com/alimy/cron?status.png)](http://godoc.org/github.com/alimy/cron)
-[![Build Status](https://cloud.drone.io/alimy/cron/status.svg)](https://cloud.drone.io/alimy/cron/)
+[![Build Status](https://cloud.drone.io/api/badges/alimy/cron/status.svg)](https://cloud.drone.io/alimy/cron)
 
 # cron
 
