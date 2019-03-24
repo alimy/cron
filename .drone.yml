@@ -1,0 +1,28 @@
+kind: pipeline
+name: go1.12
+
+steps:
+  - name: test
+    image: golang:1.12-alpine
+    commands:
+      - go test
+
+---
+kind: pipeline
+name: go1.11
+
+steps:
+  - name: test
+    image: golang:1.11-alpine
+    commands:
+      - go test
+
+---
+kind: pipeline
+name: go1.10
+
+steps:
+  - name: test
+    image: golang:1.10-alpine
+    commands:
+      - go test
